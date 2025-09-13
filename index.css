@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/* Import the font style */
 body {
-  margin: 0px;
-  padding: 0p;
-}
-
-.contianer {
+  margin: 10px;
+  padding: 0px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  background: hsl(30, 54%, 90%);
+}
+.omleteImage {
+  margin: 20px 10px;
+  width: 1200px;
 }
 img {
-  width: 1000px;
-  height: 600px;
+  border-radius: 1%;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
-  display: block;
+  width: 1440px;
+}
+
+.container {
+  align-items: start;
+  margin: 0px 2rem;
+}
+
+.omleteh1 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.omleteh1 + p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.preparation{
+  background:  hsl(330, 100%, 98%);
 }
