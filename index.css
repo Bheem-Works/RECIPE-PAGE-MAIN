@@ -11,7 +11,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   /* color: hsl(30, 10%, 34%); */
-  color:hsla(15, 42%, 8%, 1.00);
+  color: hsla(15, 42%, 8%, 1);
 }
 .omleteImage {
   margin: 20px 10px;
@@ -96,17 +96,36 @@ main {
   font-weight: 400;
 }
 
-span{
-  color: rgba(123, 40, 79, 1);
+.table {
+  width: 100%;
+  border-collapse: collapse; 
+  max-width: 600px;
 }
 
+.table tr {
+  position: relative;
+}
 
-.listTable ul li{
-  list-style:none;
-} 
+.table tr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: hsla(15, 42%, 8%, 1.00); 
+}
 
-.listTable ul span{
-  margin-left:30rem;
-  align-items: start;
-  text-align:start;
+.table tr:last-child::after {
+  display: none;
+}
+
+.table td {
+  padding: 12px 20px;
+}
+
+.table td:last-child {
+  text-align: right;
+  font-weight: bold;
+  color: #7b284f;
 }
