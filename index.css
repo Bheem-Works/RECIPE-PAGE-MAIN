@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 /* Import the font style */
 body {
   margin: 10px;
@@ -7,13 +7,17 @@ body {
   display: flex;
   justify-content: center;
   background: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .omleteImage {
   margin: 20px 10px;
-  width: 1200px;
+  width: 100%;
 }
 img {
   border-radius: 1%;
+  width: 100%;
 }
 
 main {
@@ -40,6 +44,32 @@ main {
   font-style: normal;
 }
 
-.preparation{
-  background:  hsl(330, 100%, 98%);
+.preparation {
+  width: 100%;
+  background: hsl(330, 100%, 98%);
+  border: none;
+  border-radius: 10px;
+}
+
+.preparation .preprationText {
+  margin-left: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
+.preparation .preprationText h1 {
+  color: rgba(123, 40, 79, 1);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-style: normal;
+}
+.preparation .preprationText li {
+  line-height: 1.7;
+}
+
+.ingredients h1 {
+  font-family: "Young Serif", serif;
+  color:rgba(123, 40, 79, 1);
+  font-weight: 400;
 }
