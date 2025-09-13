@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0p;
+}
+
+.contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+img {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+  display: block;
+}
