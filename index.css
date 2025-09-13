@@ -10,6 +10,8 @@ body {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  /* color: hsl(30, 10%, 34%); */
+  color:hsla(15, 42%, 8%, 1.00);
 }
 .omleteImage {
   margin: 20px 10px;
@@ -70,6 +72,41 @@ main {
 
 .ingredients h1 {
   font-family: "Young Serif", serif;
-  color:rgba(123, 40, 79, 1);
+  color: rgba(123, 40, 79, 1);
   font-weight: 400;
+}
+
+.ingredients li {
+  line-height: 1.7;
+}
+
+.instruction h1 {
+  font-family: "Young Serif", serif;
+  color: rgba(123, 40, 79, 1);
+  font-weight: 400;
+}
+
+.instruction li {
+  line-height: 1.7;
+}
+
+.nitrution h1 {
+  color: rgba(123, 40, 79, 1);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+span{
+  color: rgba(123, 40, 79, 1);
+}
+
+
+.listTable ul li{
+  list-style:none;
+} 
+
+.listTable ul span{
+  margin-left:30rem;
+  align-items: start;
+  text-align:start;
 }
