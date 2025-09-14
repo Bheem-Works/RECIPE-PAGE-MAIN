@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/* Import the font style */
+body {
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  background: hsl(30, 54%, 90%);
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* color: hsl(30, 10%, 34%); */
+  color: hsla(15, 42%, 8%, 1);
+  font-size: 16px;
+}
+.omleteImage {
+  margin: 20px 10px;
+  width: 100%;
+}
+img {
+  border-radius: 1%;
+  width: 100%;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 1440px;
+}
+
+.container {
+  align-items: start;
+  margin: 0px 2rem;
+}
+
+.omleteh1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.omleteh1 + p {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.preparation {
+  width: 100%;
+  background: hsl(330, 100%, 98%);
+  border: none;
+  border-radius: 10px;
+}
+
+.preparation .preprationText {
+  margin-left: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+}
+
+.preparation .preprationText h1 {
+  color: rgba(123, 40, 79, 1);
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-style: normal;
+}
+.preparation .preprationText li {
+  line-height: 1.7;
+}
+
+.ingredients h1 {
+  font-family: 'Young Serif', serif;
+  color: rgba(123, 40, 79, 1);
+  font-weight: 400;
+}
+
+.ingredients li {
+  line-height: 1.7;
+}
+
+.instruction h1 {
+  font-family: 'Young Serif', serif;
+  color: rgba(123, 40, 79, 1);
+  font-weight: 400;
+}
+
+.instruction li {
+  line-height: 1.7;
+}
+
+.nitrution h1 {
+  color: rgba(123, 40, 79, 1);
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  max-width: 600px;
+}
+
+.table tr {
+  position: relative;
+}
+
+.table tr::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: hsla(15, 42%, 8%, 1);
+}
+
+.table tr:last-child::after {
+  display: none;
+}
+
+.table td {
+  padding: 12px 20px;
+}
+
+.table td:last-child {
+  text-align: right;
+  font-weight: bold;
+  color: #7b284f;
+}
+
+/* Now need to make the responsive design  */
+/* @media screen and (max-width: 380px) { */
+/*   body { */
+/*     background: purple; */
+/*   } */
+/* } */
